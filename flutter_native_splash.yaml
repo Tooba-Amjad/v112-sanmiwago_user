@@ -1,0 +1,21 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+
+  image: assets/logo/logo-1024.png
+  
+  # Explicit gravity to ensure proper centering
+  android_gravity: center
+  
+  # Optional: Add image_dark if you support dark mode
+  # image_dark: assets/logo/logo.png
+
+  android_12:
+    color: "#FFFFFF"
+    image: assets/logo/splash-logo-android12.png
+    # Android 12+ uses different splash screen API
+    android_gravity: center
+
+  web: false
+  fullscreen: true
+
+

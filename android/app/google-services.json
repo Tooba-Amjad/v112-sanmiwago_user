@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "259411227194",
+    "project_id": "sanmiwago-user-app",
+    "storage_bucket": "sanmiwago-user-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259411227194:android:eb67eb0336bd1a10537b03",
+        "android_client_info": {
+          "package_name": "com.sanmiwagodumplinghouse.sanmiwagoUser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHgsDEHPYlEnnuxK6mvfBMbUJpXFlmCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259411227194:android:aecdf625da023fdc537b03",
+        "android_client_info": {
+          "package_name": "com.sanmiwagodumplinghouse.sanmiwagoUserMerge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHgsDEHPYlEnnuxK6mvfBMbUJpXFlmCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259411227194:android:23f7c95329c43e8b537b03",
+        "android_client_info": {
+          "package_name": "com.sanmiwagodumplinghouse.sanmiwagoUserPOne"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHgsDEHPYlEnnuxK6mvfBMbUJpXFlmCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

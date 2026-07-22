@@ -1,0 +1,4 @@
+{
+  "specstory.cloudSync.enabled": "always",
+  "dart.flutterSdkPath": ".fvm/versions/3.32.8"
+}

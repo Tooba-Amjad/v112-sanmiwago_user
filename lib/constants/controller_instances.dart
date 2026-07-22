@@ -1,0 +1,60 @@
+import 'package:get/get.dart';
+import 'package:sanmiwago_user/controllers/api_controller.dart';
+import 'package:sanmiwago_user/controllers/auth_controller.dart';
+import 'package:sanmiwago_user/controllers/bottom_nav_bar_controller.dart';
+import 'package:sanmiwago_user/controllers/category_item_controller.dart';
+import 'package:sanmiwago_user/controllers/drawer_controller.dart';
+import 'package:sanmiwago_user/controllers/giftcard_controller.dart';
+import 'package:sanmiwago_user/controllers/location_controller.dart';
+import 'package:sanmiwago_user/controllers/order_controllers/checkout_controller.dart';
+import 'package:sanmiwago_user/controllers/profile_controllers/my_orders_controller.dart';
+import 'package:sanmiwago_user/controllers/order_controllers/order_controller.dart';
+import 'package:sanmiwago_user/controllers/profile_controllers/membership_controller.dart';
+import 'package:sanmiwago_user/controllers/profile_controllers/my_points_controller.dart';
+import 'package:sanmiwago_user/controllers/profile_controllers/my_referrals_controller.dart';
+import 'package:sanmiwago_user/controllers/profile_controllers/profile_controller.dart';
+import 'package:sanmiwago_user/controllers/restaurant_controller.dart';
+import 'package:sanmiwago_user/controllers/site_data_controller.dart';
+import 'package:sanmiwago_user/controllers/subscriptions_controller.dart';
+
+import '../controllers/profile_controllers/user_promotions_controller.dart';
+
+ApiController apiController = ApiController.instance;
+AuthController authController = AuthController.instance;
+CategoryItemController catItemController = CategoryItemController.instance;
+OrderController orderController = OrderController.instance;
+CheckoutController checkoutController = CheckoutController.instance;
+DrawerController drawerController = DrawerController.instance;
+SiteDataController siteDataController = SiteDataController.instance;
+ProfileController profileController = ProfileController.instance;
+MyOrdersController myOrdersController = MyOrdersController.instance;
+MyPointsController myPointsController = MyPointsController.instance;
+MyReferralsController myReferralsController = MyReferralsController.instance;
+MembershipController membershipController = MembershipController.instance;
+GiftCardController giftCardController = GiftCardController.instance;
+RestaurantController restaurantController = RestaurantController.instance;
+UserPromoController userPromoController = UserPromoController.instance;
+LocationController locationController = LocationController.instance;
+SubscriptionsController subscriptionsController = SubscriptionsController.instance;
+BottomNavBarController bottomNavBarController = BottomNavBarController.instance;
+
+void initializeControllers() {
+  Get.put(ApiController());
+  Get.put(AuthController());
+  Get.put(CategoryItemController());
+  Get.put(OrderController());
+  Get.put(CheckoutController());
+  Get.put(DrawerController());
+  Get.put(SiteDataController());
+  Get.put(ProfileController());
+  Get.put(MyOrdersController());
+  Get.put(MyPointsController());
+  Get.put(MyReferralsController());
+  Get.put(MembershipController());
+  Get.put(GiftCardController());
+  Get.put(RestaurantController());
+  Get.put(UserPromoController());
+  Get.put(LocationController());
+  Get.put(SubscriptionsController());
+  Get.put(BottomNavBarController());
+}
