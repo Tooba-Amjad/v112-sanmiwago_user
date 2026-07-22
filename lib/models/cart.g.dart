@@ -48,7 +48,7 @@ const CartSchema = CollectionSchema(
   getId: _cartGetId,
   getLinks: _cartGetLinks,
   attach: _cartAttach,
-  version: '3.3.0-dev.3',
+  version: '3.3.2',
 );
 
 int _cartEstimateSize(
