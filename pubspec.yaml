@@ -58,7 +58,7 @@ dependencies:
   get: ^4.7.2
 
   # location/maps
-  flutter_osm_plugin: ^1.4.2
+  flutter_osm_plugin: 1.4.6
   geolocator: ^14.0.2
   google_maps_flutter: ^2.13.1
   material_floating_search_bar_2:
