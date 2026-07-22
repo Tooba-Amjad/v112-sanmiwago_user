@@ -104,8 +104,8 @@ dependencies:
 
   # local storage
   shared_preferences: ^2.5.3
-  isar_community: ^3.3.0-dev.1
-  isar_community_flutter_libs: ^3.3.0-dev.2
+  isar_community: 3.3.0-dev.3
+  isar_community_flutter_libs: 3.3.0-dev.3
 #  isar: ^3.1.0+1
 #  isar_flutter_libs: ^3.1.0+1
 
@@ -138,7 +138,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
-  isar_community_generator: ^3.3.0-dev.2
+  isar_community_generator: 3.3.0-dev.3
 #  isar_generator: ^3.1.0+1
 #  isar_community_generator: ^3.3.0-dev.1
   build_runner: ^2.8.0 #^2.4.13 # cannot upgrade due to isar
